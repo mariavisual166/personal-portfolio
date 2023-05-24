@@ -361,6 +361,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   text-align: justify;
 }
+.project img {
+  height: 300px;
+}
 
 .project .nav.nav-pills {
   width: 72%;
