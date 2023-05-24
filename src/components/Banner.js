@@ -1,7 +1,6 @@
 import "animate.css";
 import { useEffect, useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import { ArrowRightCircle } from "react-bootstrap-icons";
 import TrackVisibility from "react-on-screen";
 import { period, toRotate } from "../Constants";
 import headerImg from "../assets/img/header-img.svg";
@@ -86,9 +85,6 @@ export const Banner = () => {
                     that working together and sharing ideas can lead to more
                     effective and efficient solutions.
                   </p>
-                  <button>
-                    Let’s Connect <ArrowRightCircle size={25} />
-                  </button>
                 </div>
               )}
             </TrackVisibility>
