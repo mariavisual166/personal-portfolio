@@ -3,14 +3,8 @@ import { useEffect, useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import TrackVisibility from "react-on-screen";
+import { period, toRotate } from "../Constants";
 import headerImg from "../assets/img/header-img.svg";
-
-const toRotate = [
-  "Web Developer",
-  "Frontend Developer",
-  "Full stack Developer",
-];
-const period = 2000;
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -69,7 +63,6 @@ export const Banner = () => {
                     {`Hi! I'm Mariangela`}{" "}
                     <span
                       className="txt-rotate"
-                      dataPeriod="1000"
                       data-rotate='[ "Web Developer", "Fronted Developer" ]'
                     >
                       <span className="wrap">{text}</span>
@@ -93,7 +86,7 @@ export const Banner = () => {
                     that working together and sharing ideas can lead to more
                     effective and efficient solutions.
                   </p>
-                  <button onClick={() => console.log("connect")}>
+                  <button>
                     Let’s Connect <ArrowRightCircle size={25} />
                   </button>
                 </div>

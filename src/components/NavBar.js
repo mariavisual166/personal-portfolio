@@ -2,6 +2,7 @@ import { useCallback, useEffect, useState } from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { BrowserRouter as Router } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
+import { linkedin } from "../Constants";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 
 export const NavBar = () => {
@@ -67,10 +68,7 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a
-                  href="https://www.linkedin.com/in/mariangelagoncalvesmacedo/"
-                  target="_blalk"
-                >
+                <a href={linkedin} target="_blalk">
                   <img src={navIcon1} alt="" />
                 </a>
               </div>

@@ -1,4 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap";
+import { linkedin } from "../Constants";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import { MailchimpForm } from "./MailchimpForm";
 
@@ -11,10 +12,7 @@ export const Footer = () => {
           <Col size={12} sm={6}></Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
-              <a
-                href="https://www.linkedin.com/in/mariangelagoncalvesmacedo/"
-                target="_blalk"
-              >
+              <a href={linkedin} target="_blalk">
                 <img src={navIcon1} alt="Icon" />
               </a>
             </div>

@@ -1,49 +1,11 @@
 import "animate.css";
 import { Col, Container, Row, Tab } from "react-bootstrap";
 import TrackVisibility from "react-on-screen";
-import projImg5 from "../assets/img/abx.png";
-import projImg1 from "../assets/img/agro.jpg";
+import { projects } from "../Constants";
 import colorSharp2 from "../assets/img/color-sharp2.png";
-import projImg4 from "../assets/img/credix.jpg";
-import projImg3 from "../assets/img/extranet.png";
-import projImg2 from "../assets/img/simplifica.png";
-import projImg6 from "../assets/img/uc-raanking.jpg";
 import { ProjectCard } from "./ProjectCard";
 
 export const Projects = () => {
-  const projects = [
-    {
-      title: "Agromarket",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Simplifica",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Extranet",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
-    {
-      title: "Credix",
-      description: "Design & Development",
-      imgUrl: projImg4,
-    },
-    {
-      title: "Abx",
-      description: "Design & Development",
-      imgUrl: projImg5,
-    },
-    {
-      title: "UC raanking",
-      description: "Design & Development",
-      imgUrl: projImg6,
-    },
-  ];
-
   return (
     <section className="project" id="projects">
       <Container>
