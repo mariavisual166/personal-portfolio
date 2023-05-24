@@ -1,11 +1,11 @@
-import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
-import { ProjectCard } from "./ProjectCard";
+import "animate.css";
+import { Col, Container, Row, Tab } from "react-bootstrap";
+import TrackVisibility from "react-on-screen";
+import colorSharp2 from "../assets/img/color-sharp2.png";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
-import colorSharp2 from "../assets/img/color-sharp2.png";
-import "animate.css";
-import TrackVisibility from "react-on-screen";
+import { ProjectCard } from "./ProjectCard";
 
 export const Projects = () => {
   const projects = [
@@ -42,7 +42,7 @@ export const Projects = () => {
   ];
 
   return (
-    <section className="project" id="project">
+    <section className="project" id="projects">
       <Container>
         <Row>
           <Col size={12}>
@@ -55,28 +55,21 @@ export const Projects = () => {
                 >
                   <h2>Projects</h2>
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
+                    I am proficient in building user interface components using
+                    React and Angular, managing application state, and
+                    implementing routing for seamless navigation within the
+                    application. I have extensive experience in integrating with
+                    backend APIs for data exchange, and I am skilled in styling
+                    components and designing responsive interfaces using CSS,
+                    SASS, and libraries like styled-components or Angular
+                    Material. I am adept at creating and executing unit tests
+                    and integration tests using Jest, Testing Library, and
+                    Jasmine. I am well-versed in performance optimization to
+                    improve speed and efficiency in React and Angular
+                    applications, and I have in-depth knowledge of accessibility
+                    best practices and standards.
                   </p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                    <Nav
-                      variant="pills"
-                      className="nav-pills mb-5 justify-content-center align-items-center"
-                      id="pills-tab"
-                    >
-                      <Nav.Item>
-                        <Nav.Link eventKey="first">Tab 1</Nav.Link>
-                      </Nav.Item>
-                      <Nav.Item>
-                        <Nav.Link eventKey="second">Tab 2</Nav.Link>
-                      </Nav.Item>
-                      <Nav.Item>
-                        <Nav.Link eventKey="third">Tab 3</Nav.Link>
-                      </Nav.Item>
-                    </Nav>
                     <Tab.Content
                       id="slideInUp"
                       className={

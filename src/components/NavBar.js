@@ -3,8 +3,6 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 import { BrowserRouter as Router } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import navIcon1 from "../assets/img/nav-icon1.svg";
-import navIcon2 from "../assets/img/nav-icon2.svg";
-import navIcon3 from "../assets/img/nav-icon3.svg";
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
@@ -69,14 +67,11 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="#">
+                <a
+                  href="https://www.linkedin.com/in/mariangelagoncalvesmacedo/"
+                  target="_blalk"
+                >
                   <img src={navIcon1} alt="" />
-                </a>
-                <a href="#">
-                  <img src={navIcon2} alt="" />
-                </a>
-                <a href="#">
-                  <img src={navIcon3} alt="" />
                 </a>
               </div>
               <HashLink to="#connect">
