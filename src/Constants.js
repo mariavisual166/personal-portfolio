@@ -19,32 +19,32 @@ export const period = 2000;
 export const projects = [
   {
     title: "Agromarket",
-    description: "Design & Development",
+    description: "Development",
     imgUrl: projImg1,
   },
   {
     title: "Simplifica",
-    description: "Design & Development",
+    description: "Development",
     imgUrl: projImg2,
   },
   {
     title: "Extranet",
-    description: "Design & Development",
+    description: "Development",
     imgUrl: projImg3,
   },
   {
     title: "Credix",
-    description: "Design & Development",
+    description: "Development",
     imgUrl: projImg4,
   },
   {
     title: "Abx",
-    description: "Design & Development",
+    description: "Development",
     imgUrl: projImg5,
   },
   {
     title: "UC raanking",
-    description: "Design & Development",
+    description: "Development",
     imgUrl: projImg6,
   },
 ];
