@@ -2,7 +2,6 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { responsive } from "../Constants";
 import colorSharp from "../assets/img/color-sharp.png";
-import meter1 from "../assets/img/meter1.svg";
 import meter2 from "../assets/img/meter2.svg";
 
 export const Skills = () => {
